@@ -1,0 +1,43 @@
+{
+    "opts": {
+        "destination": "./docs_out/",
+        "encoding": "utf8",
+        "readme": "docs/introduction.md",
+        "template": "node_modules/incheon-docs-template",
+        "tutorials": "./docs"
+    },
+    "source": {
+        "include": [
+            "src/ServerEngine.js",
+            "src/ClientEngine.js",
+            "src/GameEngine.js",
+            "src/serialize/DynamicObject.js",
+            "src/serialize/Serializer.js",
+            "src/serialize/PhysicalObject.js",
+            "src/serialize/TwoVector.js",
+            "src/serialize/ThreeVector.js",
+            "src/serialize/Quaternion.js",
+            "src/render/Renderer.js",
+            "src/render/AFrameRenderer.js"
+        ]
+    },
+    "plugins": [
+        "plugins/markdown"
+    ],
+    "templates": {
+        "systemName"            : "Incheon",
+        "copyright"             : "Incheon Copyright © 2016 The contributors to the Incheon project.",
+        "includeDate"           : true,
+        "navType"               : "vertical",
+        "theme"                 : "spacelab",
+        "linenums"              : false,
+        "collapseSymbols"       : true,
+        "inverseNav"            : false,
+        "outputSourceFiles"     : false,
+        "outputSourcePath"      : false,
+        "dateFormat"            : "ddd MMM Do YYYY",
+        "syntaxTheme"           : "default",
+        "sort"                  : false,
+        "search"                : true
+    }
+}

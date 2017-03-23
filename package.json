@@ -1,0 +1,20 @@
+{
+  "name": "incheon-test",
+  "version": "1.0.0",
+  "description": "testing bundling incheon with webpack babel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:babel": "babel-node index.js",
+    "start:babel:local": "NODE_ENV=local babel-node index.js"
+  },
+  "author": "Alan Smithee",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "incheon": "^1.0.2"
+  }
+}
